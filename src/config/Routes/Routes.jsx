@@ -7,7 +7,7 @@ import { Settings } from "../../components/ui/Dashboard/Settings/Settings";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/dashboard-1/",
     element: <Login />,
   },
   {
