@@ -35,7 +35,7 @@ function Customerinformation() {
           
           <div className='gap-5 pt-5 flex-1 flex flex-col w-full '>
             <div className='flex gap-2 items-center text-gray-400 hover:text-gray-600'>
-              <IconPhoneFilled /><p className='text-sm'>kajope5182@ummoh.com</p>
+              <IconPhoneFilled /><p className='text-sm'>98765442526</p>
               </div>
             <Divider/>
           </div> 
@@ -48,6 +48,7 @@ function Customerinformation() {
         </div>
         <div className='basis-5/12 flex flex-col gap-5'>
            <div className='basis-2/3 border-2 border-gray-50 flex items-center'>
+             
                         <BarChart
                     h={30}
                     w={30}
