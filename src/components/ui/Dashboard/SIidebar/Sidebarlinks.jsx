@@ -1,25 +1,43 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaFileInvoice } from "react-icons/fa";
-import { MdAnalytics } from "react-icons/md";
-import { TbAlignBoxLeftMiddleFilled } from "react-icons/tb";
-import { PiCalendarDotsFill } from "react-icons/pi";
-import { RiMessageFill, RiNotification2Fill } from "react-icons/ri";
-import { IoMdSettings } from "react-icons/io";
-
-export const Sidebardata = [
-  {
-    link: "home",
-    name: "Home",
-    icon: <AiFillAppstore />,
-  },
-  {
-    link: "analytics",
-    name: "Analytics",
-    icon: <TbAlignBoxLeftMiddleFilled />,
-  },
-  {
-    link: "settings",
-    name: "Analytics",
-    icon: <IoMdSettings />,
-  },
-];
+import { IconLayoutDashboardFilled,IconChartBar,IconFileInvoice ,
+    IconListCheck,IconCalendarMonth,IconMessageFilled,IconSettings,IconBellFilled} from '@tabler/icons-react';
+export const Sidebardata=[
+    {
+         link:'home',
+         name:'Dashboard',
+        icon:<IconLayoutDashboardFilled/>,
+       
+    },
+    {   
+        link:'analytics',
+        name:'Analytics',
+        icon:<IconChartBar/>
+    },
+    {
+         link:'invoice',
+        name:'Invoice',
+        icon:<IconFileInvoice/>,
+       
+    },
+    {
+      link:'schedule',
+      name:'Schedule',
+        icon:<IconListCheck/>
+    },
+    {
+      name:'Calender',
+        icon:<IconCalendarMonth/>
+    },
+    {
+         name:'Messages',
+        icon:<IconMessageFilled/>
+    },
+    {
+      name:'Notifications',
+        icon:<IconBellFilled/>
+    },
+    {
+      link:'settings',
+      name:'Settings',
+        icon:<IconSettings/>
+    }
+]

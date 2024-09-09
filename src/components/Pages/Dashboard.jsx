@@ -3,13 +3,14 @@ import { Navbar } from "../ui/Dashboard/Navbar/Navbar";
 import { Sidebar } from "../ui/Dashboard/SIidebar/Sidebar";
 export const Dashboard = () => {
   return (
-    <div className="h-screen">
-      <Navbar />
+    <div className="min-h-screen flex">
+       <Sidebar />
       <div
-        style={{ height: "calc(100vh - 85.19px" }}
-        className=" flex flex-row"
+        style={{ height: "" }}
+        className=" flex flex-col w-full bg-zinc-200"
       >
-        <Sidebar />
+       
+        {/* <Navbar/> */}
         <Outlet />
       </div>
     </div>

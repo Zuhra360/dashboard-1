@@ -1,15 +1,10 @@
+import React from 'react'
 import { Flex, Select, Group, Image, Title, Divider } from "@mantine/core";
-import logo from "../../../../assets/images/Subtract.svg";
-
-import { useState } from "react";
-export const Navbar = () => {
-  const [dashboard,setDashboard]=useState(0)
+function NavbarHome() {
   return (
-    <>
-    <div>
-      <Flex justify={"space-between"} p={20} w={"100%"} className="bg-green-50">
+    <Flex justify={"space-between"} pb={6} w={"100%"} className="bg-zinc-200">
         <div className="flex flex-row gap-3">
-           <Title>Dashboard</Title>
+        <h1 className='font-bold  text-lg'>Dashboard</h1>
         </div>
 
         <Group gap={20}>
@@ -24,8 +19,8 @@ export const Navbar = () => {
           />
         </Group>
       </Flex>
-      {/* <Divider /> */}
-    </div>
-    </>
-  );
-};
+        
+  )
+}
+
+export default NavbarHome
