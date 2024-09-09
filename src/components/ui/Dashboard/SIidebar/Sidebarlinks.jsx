@@ -15,11 +15,36 @@ export const Sidebardata = [
   {
     link: "analytics",
     name: "Analytics",
+    icon: <MdAnalytics />,
+  },
+  {
+    link: "invoice",
+    name: "Invoice",
+    icon: <FaFileInvoice />,
+  },
+  {
+    link: "Schedule",
+    name: "Schedule",
     icon: <TbAlignBoxLeftMiddleFilled />,
   },
   {
+    link: "calender",
+    name: "Calender",
+    icon: <PiCalendarDotsFill />,
+  },
+  {
+    link: "messages",
+    name: "Messages",
+    icon: <RiMessageFill />,
+  },
+  {
+    link: "notification",
+    name: "Notification",
+    icon: <RiNotification2Fill />,
+  },
+  {
     link: "settings",
-    name: "Analytics",
+    name: "Setting",
     icon: <IoMdSettings />,
   },
 ];

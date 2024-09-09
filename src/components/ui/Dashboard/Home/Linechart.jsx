@@ -6,7 +6,7 @@ import { data } from "./Data";
 
 export const Linechart = () => {
   return (
-    <div className="flex flex-row w-[100%] gap-9">
+    <div className="flex flex-row w-[100%] gap-9 mb-8">
       <div className=" flex-1 border rounded-lg  bg-white p-7">
         <h3 className=" text-2xl text-bold mb-4 ">Reports</h3>
         <LineChart

@@ -13,12 +13,12 @@ export const Home = () => {
       <Card />
       <Linechart /> 
 
-      <div className="flex flex-row w-11/12 ">
-        <div className="h-80 w-2/4 my-2  flex flex-col bg-white">
+      <div className="flex flex-row w-[100%] gap-9 ">
+        <div className="  flex flex-col bg-white flex-1 border rounded-lg  p-7">
           <div className="flex flex-row justify-between mb-4">
             <h3 className="text-gray-700 text-xl">Recent Orders</h3>
             <button>
-              <HiOutlineDotsHorizontal className="stroke-gray-500" />
+            <HiOutlineDotsHorizontal className="stroke-gray-500" />
             </button>
           </div>
 
@@ -67,7 +67,7 @@ export const Home = () => {
             </table>
           </div>
         </div>
-        <div className="flex flex-col bg-white h-80 w-4/12 my-2 mx-8">
+        <div className="flex flex-col bg-white flex-1 border rounded-lg   p-6">
           <div className="flex flex-row justify-between mx-4 my-4">
             <h2 className="text-gray-800 text-xl">Top selling Products</h2>
             <button>

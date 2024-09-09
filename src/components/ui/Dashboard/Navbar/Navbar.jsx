@@ -6,8 +6,8 @@ export const Navbar = () => {
     <div>
       <Flex justify={"space-between"} p={20} w={"100%"}>
         <div className="flex flex-row gap-3">
-          <Image src={logo} w={80} />
-          <Title>Aazn</Title>
+        <Image src={logo} w={80} />
+          <Title>Demo</Title>
         </div>
 
         <Group gap={20}>

@@ -4,10 +4,11 @@ import { Dashboard } from "../../components/Pages/Dashboard";
 import { Analytics } from "../../components/ui/Dashboard/Analytics/Analytics";
 import { Home } from "../../components/ui/Dashboard/Home/Home";
 import { Settings } from "../../components/ui/Dashboard/Settings/Settings";
+import { Invoice } from "../../components/ui/Dashboard/Invoice/Invoice";
 
 export const router = createBrowserRouter([
   {
-    path: "/dashboard-1/",
+    path: "/",
     element: <Login />,
   },
   {
@@ -21,10 +22,11 @@ export const router = createBrowserRouter([
       {
         path: "analytics",
         element: <Analytics />,
+        
       },
       {
-        path: "settings",
-        element: <Settings />,
+        path: "invoice",
+        element: <Invoice />,
       },
     ],
   },
