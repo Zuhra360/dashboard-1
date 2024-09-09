@@ -28,6 +28,11 @@ export const router = createBrowserRouter([
         path: "invoice",
         element: <Invoice />,
       },
+      {
+        path: "settings",
+        element: <Settings />,
+      }
+      
     ],
   },
 ]);
