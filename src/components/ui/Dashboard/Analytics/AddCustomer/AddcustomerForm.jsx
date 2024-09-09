@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconX ,IconCameraFilled} from '@tabler/icons-react'
 import { useFormik } from 'formik';
-function AddcustomerForm() {
+function AddcustomerForm(props) {
     const formik = useFormik({
         initialValues: {
           firstName: '',
@@ -18,7 +18,7 @@ function AddcustomerForm() {
         <div className='basis-1/3 w-full h-full flex flex-col  gap-10'>
             <div className='flex-1 flex justify-between items-start '>
                 <p className='text-2xl flex-grow flex justify-end flex-col pb-3 text-gray-600 font-semibold'>Add Customert</p>
-                <div className='w-10 h-10 bg-red-50 text-red-600 flex items-center justify-center rounded-full'>
+                <div onClick={() => props.setActive(!props.active)} className='w-10 h-10 bg-red-50 text-red-600 flex items-center justify-center rounded-full'>
                     <IconX width={14} height={14}/>
                 </div> 
             </div>

@@ -54,7 +54,7 @@ export const customerdata=[
     }
 ]
 
-export const data = [
+export const data2 = [
     { month: 'January', Smartphones: 1200, Laptops: 900, Tablets: 200 },
     { month: 'February', Smartphones: 1900, Laptops: 1200, Tablets: 400 },
     { month: 'March', Smartphones: 400, Laptops: 1000, Tablets: 200 },

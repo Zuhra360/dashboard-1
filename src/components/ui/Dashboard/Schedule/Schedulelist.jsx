@@ -1,4 +1,3 @@
-import React from 'react'
 import { IconCalculatorFilled ,IconClockFilled,IconMapPinFilled,IconTrashFilled,IconEdit} from '@tabler/icons-react';
 import { data1 } from './Dataschedule'
 function Schedulelist() {
@@ -38,7 +37,7 @@ function Schedulelist() {
         </div>
         {data1.map((items)=>{
             return(
-                <div className='flex  px-5 py-3  rounded-lg bg-white items-center'>
+                <div key={items.location} className='flex  px-5 py-3  rounded-lg bg-white items-center'>
                     <div className='flex-1 flex flex-row gap-3'>
                     <label className='flex'><input type='checkbox'  className='size-5 accent-indigo-500'></input></label>
                         <IconCalculatorFilled  className='size-5 text-blue-400'/>

@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-import { Navbar } from "../ui/Dashboard/Navbar/Navbar";
 import { Sidebar } from "../ui/Dashboard/SIidebar/Sidebar";
 export const Dashboard = () => {
   return (

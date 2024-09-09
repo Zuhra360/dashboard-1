@@ -8,57 +8,41 @@ import Invoicelist from "../../components/ui/Dashboard/Invoicelist/Invoicelist";
 import Addcustomer from "../../components/ui/Dashboard/Analytics/AddCustomer/Addcustomer";
 import Schedule from "../../components/ui/Dashboard/Schedule/Schedule";
 
-
 export const router = createBrowserRouter([
   {
-    path: "/dashboard-1/",
+    path: "/",
     element: <Login />,
   },
   {
     path: "dashboard",
     element: <Dashboard />,
     children: [
-          {
-            path: "home",
-            element: <Home />,
-          },
-          {
-            path: "analytics", 
-            element: <Analytics />,
+      {
+        path: "home",
+        element: <Home />,
+      },
+      {
+        path: "analytics",
+        element: <Analytics />,
+        
+      },
 
-            // childern:[  
-            //         {
-            //           path:"addcustomer",
-            //           element:<Addcustomer/>
-            //         }
-            //         ]
-            
-          },
-              
-          
-          {
-            path:"invoice",
-            element:<Invoicelist/>
-          },
-          {
-            path:"schedule",
-            element:<Schedule/>
-          },
-          {
-            path: "settings",
-            element: <Settings />,
-          },
-            {
-            path:"addcustomer",
-            element:<Addcustomer/>
-          }
-     
+      {
+        path: "invoice",
+        element: <Invoicelist />,
+      },
+      {
+        path: "schedule",
+        element: <Schedule />,
+      },
+      {
+        path: "settings",
+        element: <Settings />,
+      },
+      {
+        path: "addcustomer",
+        element: <Addcustomer />,
+      },
     ],
   },
-  // {
-  //   path: "/addcustomer",
-  //   element:<Addcustomer/>
-  // }
- 
- 
 ]);
