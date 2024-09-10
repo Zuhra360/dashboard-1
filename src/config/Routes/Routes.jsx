@@ -30,9 +30,11 @@ export const router = createBrowserRouter([
         element: <Invoice />,
       },
       {
+
         path: "calender",
         element: <Calender/>,
       },
+
     ],
   },
 ]);

@@ -4,12 +4,22 @@ import { Sidebar } from "../ui/Dashboard/SIidebar/Sidebar";
 export const Dashboard = () => {
   return (
     <div className="h-screen">
-      <Navbar />
-      <div
-        style={{ height: "calc(100vh - 85.19px" }}
-        className=" flex flex-row"
-      >
-        <Sidebar />
+      <div className="sticky top-0">
+        <Navbar />
+      </div>
+
+      <div className=" flex flex-row">
+        <div
+          style={{
+            position: "sticky",
+            top: 86,
+            zIndex: 1000,
+            height: "calc(100vh - 86px)",
+          }}
+        >
+          <Sidebar />
+        </div>
+
         <Outlet />
       </div>
     </div>
