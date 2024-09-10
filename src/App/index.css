@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mantine-Calendar-chevron {
+    width: 20px !important;  /* Adjust the width */
+    height: 20px !important; /* Adjust the height */
+}
+  
+  /* Center the calendar properly */
+.calendar-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

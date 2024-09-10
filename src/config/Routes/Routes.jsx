@@ -5,6 +5,7 @@ import { Analytics } from "../../components/ui/Dashboard/Analytics/Analytics";
 import { Home } from "../../components/ui/Dashboard/Home/Home";
 import { Settings } from "../../components/ui/Dashboard/Settings/Settings";
 import { Invoice } from "../../components/ui/Dashboard/Invoice/Invoice";
+import { Calender } from "../../components/ui/Dashboard/Calender/Calender";
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
       {
         path: "invoice",
         element: <Invoice />,
+      },
+      {
+        path: "calender",
+        element: <Calender/>,
       },
     ],
   },
