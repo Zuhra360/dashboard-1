@@ -34,6 +34,11 @@ export const router = createBrowserRouter([
         path: "calender",
         element: <Calender/>,
       },
+      {
+
+        path: "settings",
+        element: <Settings/>,
+      },
 
     ],
   },
